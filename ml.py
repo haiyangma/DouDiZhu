@@ -62,7 +62,7 @@ def prdect(lr, img, num):
     y_hat = lr.predict(img)[0]
     return y_hat
 
-#dumpModel(3)
+#dumpModel(4)
 
 # with open('lr.pickle', 'rb') as f:
 #     lr = pickle.load(f)
